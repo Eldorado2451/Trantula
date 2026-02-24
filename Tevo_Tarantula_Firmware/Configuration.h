@@ -135,7 +135,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "Tarantula v4.5"
+#define CUSTOM_MACHINE_NAME "Tarantula v5"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -328,10 +328,10 @@
   //#define  DEFAULT_Ki 2.25
   //#define  DEFAULT_Kd 440
 
-  //Tevo Tarantula - David 20170522
-  #define  DEFAULT_Kp 24.75
-  #define  DEFAULT_Ki 1.75
-  #define  DEFAULT_Kd 87.57
+  //Tevo Tarantula - David 20260224
+  #define  DEFAULT_Kp 42.03
+  #define  DEFAULT_Ki 4.11
+  #define  DEFAULT_Kd 107.41
 
 
 #endif // PIDTEMP
@@ -492,7 +492,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.27, 79.68, 1602.00, 96.82 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.27, 79.68, 1602.00, 95.89 }
 
 /**
  * Default Max Feed Rate (mm/s)
