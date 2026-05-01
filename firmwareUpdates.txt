@@ -1,1 +1,1 @@
-For firmware updates, see: Obsidian vault/3D Printer notes/Firmware/Marlin firmware flashing updates.md
+For firmware updates, see: Obsidian vault/3D Printing/Firmware/Marlin firmware flashing updates.md
